@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-Diagnosis Respiratory Disease Management</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F0F8FF; /* Soft light blue */
+            color: #2C3E50; /* Darker text for readability */
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #3498DB; /* Light blue header */
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        /* Main Container */
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        /* Box Style for Each Disease */
+        .disease-box {
+            background-color: #D6EAF8; /* Light blue box */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .disease-box img {
+            width: 200px; /* Set image width */
+            height: 200px; /* Set image height */
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .disease-box-content {
+            flex: 1;
+        }
+
+        .disease-box h2 {
+            color: #2C3E50; /* Darker text for headers */
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .disease-box ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .disease-box li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .disease-box li span {
+            font-size: 20px; /* Larger symbol */
+            margin-right: 10px;
+            color: #2980B9; /* Bold blue color for icons */
+        }
+
+        .disease-box li strong {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        /* CTA Button */
+        .cta-btn {
+            display: block;
+            background-color: #3498DB;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #2874A6;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #3498DB; /* Light blue footer */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .disease-box {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .disease-box img {
+                margin-bottom: 10px;
+            }
+
+            .disease-box li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Post-Diagnosis Respiratory Disease Management</h1>
+    <p>Guidelines for managing respiratory conditions effectively</p>
+</header>
+
+<div class="container">
+    <!-- COPD Section -->
+    <div class="disease-box">
+        <img src="copd.jpg" alt="COPD">
+        <div class="disease-box-content">
+            <h2>Managing COPD</h2>
+            <ul>
+                <li><span>🚭</span><strong>Quit Smoking:</strong> Smoking is the primary cause of COPD. Seek support to quit smoking.</li>
+                <li><span>💊</span><strong>Medication:</strong> Use prescribed inhalers and medicines regularly.</li>
+                <li><span>📈</span><strong>Monitor Symptoms:</strong> Track your breathing and consult your doctor as needed.</li>
+                <li><span>💪</span><strong>Exercise:</strong> Engage in light physical activities to strengthen lung function.</li>
+                <li><span>⚠️</span><strong>Manage Exacerbations:</strong> Recognize early signs of worsening and seek medical help.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Pneumonia Section -->
+    <div class="disease-box">
+        <img src="pneo.webp" alt="Pneumonia">
+        <div class="disease-box-content">
+            <h2>Managing Pneumonia</h2>
+            <ul>
+                <li><span>💊</span><strong>Complete Antibiotics:</strong> Finish the course as prescribed.</li>
+                <li><span>🛏️</span><strong>Rest:</strong> Stay hydrated and allow your body to heal.</li>
+                <li><span>💨</span><strong>Monitor Breathing:</strong> Keep an eye on oxygen levels; seek care if necessary.</li>
+                <li><span>🌫️</span><strong>Avoid Pollution:</strong> Stay away from irritants like smoke or dust.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Asthma Section -->
+    <div class="disease-box">
+        <img src="asthma.webp" alt="Asthma">
+        <div class="disease-box-content">
+            <h2>Managing Asthma</h2>
+            <ul>
+                <li><span>💨</span><strong>Avoid Triggers:</strong> Identify and avoid asthma triggers such as allergens or smoke.</li>
+                <li><span>💊</span><strong>Inhalers:</strong> Use your prescribed inhalers to control symptoms.</li>
+                <li><span>🩺</span><strong>Regular Checkups:</strong> Visit your doctor regularly for lung function tests.</li>
+                <li><span>🚶‍♀️</span><strong>Exercise Caution:</strong> Exercise in a controlled environment to prevent flare-ups.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- URTI Section -->
+    <div class="disease-box">
+        <img src="urti.png" alt="URTI">
+        <div class="disease-box-content">
+            <h2>Managing URTI</h2>
+            <ul>
+                <li><span>💧</span><strong>Stay Hydrated:</strong> Drink plenty of fluids to loosen mucus.</li>
+                <li><span>🛏️</span><strong>Rest:</strong> Rest to allow your body to recover from infection.</li>
+                <li><span>😷</span><strong>Cover Your Cough:</strong> Prevent the spread of germs by coughing into a tissue or elbow.</li>
+                <li><span>💊</span><strong>Medication:</strong> Use over-the-counter medications to relieve symptoms.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bronchitis Section -->
+    <div class="disease-box">
+        <img src="bron.jpg" alt="Bronchitis">
+        <div class="disease-box-content">
+            <h2>Managing Bronchitis</h2>
+            <ul>
+                <li><span>💨</span><strong>Avoid Smoking:</strong> Smoking worsens bronchitis symptoms, so avoid smoking and second-hand smoke.</li>
+                <li><span>🧳</span><strong>Stay Warm:</strong> Keep warm to help ease chest discomfort.</li>
+                <li><span>💊</span><strong>Medications:</strong> Use prescribed cough medicine or antibiotics if necessary.</li>
+                <li><span>🌬️</span><strong>Use a Humidifier:</strong> A humidifier can help relieve coughing and discomfort.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- General Health Advice Section -->
+    <div class="disease-box">
+        <img src="healthy.jpg" alt="Health Tips">
+        <div class="disease-box-content">
+            <h2>General Health Tips</h2>
+            <ul>
+                <li><span>🍏</span><strong>Healthy Diet:</strong> Include fruits and vegetables to boost immunity.</li>
+                <li><span>💧</span><strong>Hydration:</strong> Drink at least 8 glasses of water daily.</li>
+                <li><span>🧘‍♀️</span><strong>Breathing Exercises:</strong> Practice deep breathing for better lung capacity.</li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="#" class="cta-btn">Learn More</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 Respiratory Health Management. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
